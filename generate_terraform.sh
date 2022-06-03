@@ -7,6 +7,8 @@ INFRA_NAME=group-4
 CLIENT_ID=4
 GIT_REPO=https://github.com/
 
+rm -r $DEST_FOLDER
+
 echo "Generate Terraform providers..."
 cp ${TEMPLATE_FOLDER}provider.template ${DEST_FOLDER}00-provider.tf
 

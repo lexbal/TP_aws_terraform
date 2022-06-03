@@ -5,4 +5,4 @@ DEST_FOLDER=GENERATED/
 cd ${DEST_FOLDER}
 
 terraform init
-terraform apply --auto-approve
+terraform apply -destroy
