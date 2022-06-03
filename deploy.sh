@@ -24,6 +24,7 @@ sed -ie "s|<##GIT##>|${GIT_REPO}|g" new_script_web
 
 cp -r new_script_web ${DEST_FOLDER}${SCRIPTS}install_web.sh
 rm new_script_web
+rm new_script_webe
 
 I=0
 
