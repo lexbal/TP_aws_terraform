@@ -1,0 +1,4 @@
+NOM;SUBNET;SERVICES;SECURITY_GROUP
+MACHINE-ADMIN;group-4-pub;NULL;SG-ADMIN
+MACHINE-RPROXY;group-4-pub;install_rproxy.sh;SG-RPROXY
+MACHINE-WEB;group-4-priv;install_web.sh;SG-WEB

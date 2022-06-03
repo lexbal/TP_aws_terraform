@@ -1,0 +1,16 @@
+resource "aws_security_group" "<##NAME##>" {
+        name        = "<##NAME##>"
+        description = "<##NAME##>"
+        vpc_id      = aws_vpc.<##VPC##>-vpc.id
+
+	<##INGRESS##>
+
+        egress {
+                description      = "Allow out Traffic"
+                from_port        = 0
+                to_port          = 0
+                protocol         = "-1"
+                cidr_blocks      = ["0.0.0.0/0"]
+                ipv6_cidr_blocks = []
+        }
+}

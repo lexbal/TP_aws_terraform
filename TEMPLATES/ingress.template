@@ -1,0 +1,7 @@
+	ingress {
+		description   = "Auto Generated Rule"
+		from_port 	  = <##FROM##>
+		to_port 	  = <##TO##>
+		protocol 	  = "<##PROTOCOL##>"
+		<##TYPE##> = ["<##TEMPLATE##>"]
+	}
